@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslation } from "@/lib/i18n/i18n";
 import CategoryGrid from "@/components/CategoryGrid";
 import HomeSearch from "@/components/HomeSearch";
+import heroImg from "@/public/hero-kumbh.png";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -51,7 +52,7 @@ export default function HomePage() {
               <div className="relative w-full h-full min-h-[380px] sm:min-h-[460px] lg:min-h-[520px] flex">
                 <div className="absolute -inset-2 rounded-3xl bg-gradient-to-r from-orange-400/25 via-amber-500/25 to-orange-600/25 blur-xl opacity-80"></div>
                 <img
-                  src="/hero-kumbh.png"
+                  src={heroImg.src}
                   alt="Pilgrims at Godavari River Ghat in Nashik during Kumbh Mela"
                   className="relative w-full h-full object-cover rounded-3xl shadow-2xl border border-orange-100/90 transition duration-300 hover:scale-[1.005]"
                 />

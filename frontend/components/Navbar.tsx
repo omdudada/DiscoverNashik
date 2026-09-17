@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { useTranslation } from "@/lib/i18n/i18n";
 import LanguageSelector from "./LanguageSelector";
+import logoImg from "@/public/logo.jpeg";
 
 const PORTAL_LINKS = [
   { href: "/business/apply", labelKey: "nav.business", defaultLabel: "Business Registration / Login", icon: "💼", desc: "Apply or manage business listing" },
@@ -36,7 +37,7 @@ export default function Navbar() {
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-2.5 text-xl font-black tracking-tight text-gray-900 group">
           <img
-            src="/logo.jpeg"
+            src={logoImg.src}
             alt="Discover Nashik Logo"
             className="h-10 w-10 sm:h-11 sm:w-11 rounded-full object-cover shadow-md border-2 border-orange-400/80 group-hover:scale-105 transition duration-200"
           />
