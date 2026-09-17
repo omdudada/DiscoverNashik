@@ -1,0 +1,277 @@
+export interface Place {
+  id: string;
+  name: string;
+  categorySlug: string;
+  categoryName: string;
+  categoryIcon: string;
+  description: string;
+  location: string;
+  distanceKm: number;
+  price: string | null;
+  rating: number;
+  latitude: number;
+  longitude: number;
+  tags: string[];
+  timings?: string;
+  highlights?: string[];
+}
+
+export const NASHIK_PLACES: Place[] = [
+  {
+    id: "trimbakeshwar",
+    name: "Trimbakeshwar Shiva Temple",
+    categorySlug: "temples",
+    categoryName: "Temples & Pilgrimage",
+    categoryIcon: "🛕",
+    description: "One of the 12 sacred Jyotirlingas in India. Located at the foot of Brahmagiri hill, it is the holy source of the sacred Godavari River.",
+    location: "Trimbak, Nashik (28 km from city centre)",
+    distanceKm: 28,
+    price: "Free Entry (VIP Darshan: ₹200)",
+    rating: 4.9,
+    latitude: 19.9321,
+    longitude: 73.5307,
+    tags: ["jyotirlinga", "temple", "shiva", "godavari", "pilgrimage", "trimbak", "kumbh"],
+    timings: "5:30 AM - 9:00 PM",
+    highlights: ["12 Jyotirlinga Site", "Godavari Origin", "Ancient Black Stone Architecture"],
+  },
+  {
+    id: "ramkund",
+    name: "Ramkund Sacred Ghat",
+    categorySlug: "ghats",
+    categoryName: "Ghats",
+    categoryIcon: "🌊",
+    description: "The holiest bathing ghat in Nashik where Lord Rama took baths during his exile. Site of the main Shahi Snan during Kumbh Mela.",
+    location: "Panchavati, Nashik",
+    distanceKm: 2.1,
+    price: "Free",
+    rating: 4.8,
+    latitude: 20.0063,
+    longitude: 73.7932,
+    tags: ["ramkund", "ghat", "godavari", "kumbh", "shahi snan", "holy dip", "panchavati"],
+    timings: "Open 24 Hours (Evening Aarti at 6:30 PM)",
+    highlights: ["Kumbh Mela Main Bathing Site", "Daily Ganga/Godavari Aarti", "Holy Dip"],
+  },
+  {
+    id: "kalaram-temple",
+    name: "Kalaram Temple",
+    categorySlug: "temples",
+    categoryName: "Temples & Pilgrimage",
+    categoryIcon: "🛕",
+    description: "Historic temple dedicated to Lord Rama, housing a rare 2-feet tall black statue of Rama, Sita, and Lakshmana built in 1782.",
+    location: "Panchavati, Nashik",
+    distanceKm: 2.5,
+    price: "Free",
+    rating: 4.7,
+    latitude: 20.0078,
+    longitude: 73.7954,
+    tags: ["kalaram", "temple", "rama", "panchavati", "heritage", "black stone"],
+    timings: "5:00 AM - 10:00 PM",
+    highlights: ["Historic Black Statue", "Sita Gufa nearby", "Gold Pinnacle"],
+  },
+  {
+    id: "panchavati",
+    name: "Panchavati & Sita Gufa",
+    categorySlug: "culture",
+    categoryName: "Culture & Heritage",
+    categoryIcon: "🎭",
+    description: "Sacred grove of five Banyan trees where Lord Rama, Sita, and Lakshmana stayed in exile. Houses the ancient cave where Sita took shelter.",
+    location: "Panchavati, Nashik",
+    distanceKm: 2.3,
+    price: "Free (Cave entry ₹10)",
+    rating: 4.6,
+    latitude: 20.0085,
+    longitude: 73.7961,
+    tags: ["panchavati", "sita gufa", "banyan", "ramayana", "culture", "heritage"],
+    timings: "6:00 AM - 9:00 PM",
+    highlights: ["5 Holy Banyan Trees", "Ancient Sita Cave", "Ramayana Heritage"],
+  },
+  {
+    id: "sula-vineyards",
+    name: "Sula Vineyards",
+    categorySlug: "attractions",
+    categoryName: "Tourist Attractions",
+    categoryIcon: "📍",
+    description: "India's pioneer winery offering vineyard tours, wine tasting, scenic amphitheaters, and gourmet dining overlooking Gangapur dam backwaters.",
+    location: "Govardhan Village, Off Gangapur Road",
+    distanceKm: 12.4,
+    price: "₹600 - ₹1000 (Includes Tasting)",
+    rating: 4.6,
+    latitude: 19.9975,
+    longitude: 73.6845,
+    tags: ["sula", "winery", "tasting", "attraction", "resort", "gangapur", "dining"],
+    timings: "11:30 AM - 10:30 PM",
+    highlights: ["Winery Tours & Tastings", "Lakeview Restaurants", "Sunset Amphitheater"],
+  },
+  {
+    id: "pandavleni-caves",
+    name: "Pandavleni Caves (Trirashmi Caves)",
+    categorySlug: "mountains",
+    categoryName: "Mountains & Treks",
+    categoryIcon: "⛰️",
+    description: "A group of 24 rock-cut Hinayana Buddhist caves dating from 1st century BCE to 3rd century CE situated on Trirashmi Hill.",
+    location: "Mumbai Naka, Nashik",
+    distanceKm: 8.2,
+    price: "₹25",
+    rating: 4.5,
+    latitude: 19.9405,
+    longitude: 73.7483,
+    tags: ["pandavleni", "caves", "buddhist", "trek", "mountain", "ancient", "archeology"],
+    timings: "8:00 AM - 6:00 PM",
+    highlights: ["24 Ancient Rock Caves", "Panoromic Nashik View", "200 Steps Easy Trek"],
+  },
+  {
+    id: "brahmagiri-hill",
+    name: "Brahmagiri Hill & Trek",
+    categorySlug: "mountains",
+    categoryName: "Mountains & Treks",
+    categoryIcon: "⛰️",
+    description: "Majestic hill adjoining Trimbakeshwar Temple. Considered the physical origin of River Godavari with panoramic valley views.",
+    location: "Trimbakeshwar, Nashik",
+    distanceKm: 29.5,
+    price: "Free",
+    rating: 4.8,
+    latitude: 19.9366,
+    longitude: 73.5218,
+    tags: ["brahmagiri", "trek", "godavari origin", "mountain", "nature", "adventure"],
+    timings: "6:00 AM - 5:00 PM",
+    highlights: ["Godavari Temple at Peak", "Scenic Mountain Trek", "Flora & Wildlife"],
+  },
+  {
+    id: "anjaneri-hill",
+    name: "Anjaneri Hill Trek",
+    categorySlug: "mountains",
+    categoryName: "Mountains & Treks",
+    categoryIcon: "⛰️",
+    description: "Sacred hill believed to be the birthplace of Lord Hanuman. Features a fort, ancient Jain temples, and a footprint-shaped lake.",
+    location: "Anjaneri, Nashik-Trimbak Road",
+    distanceKm: 20.0,
+    price: "Free (Forest Entry ₹50)",
+    rating: 4.7,
+    latitude: 19.9192,
+    longitude: 73.5701,
+    tags: ["anjaneri", "hanuman", "birthplace", "trek", "fort", "nature"],
+    timings: "6:00 AM - 5:00 PM",
+    highlights: ["Hanuman Birthplace Temple", "Footprint Lake", "Monsoon Waterfalls"],
+  },
+  {
+    id: "sadhana-misal",
+    name: "Sadhana Chulivarchi Misal",
+    categorySlug: "food",
+    categoryName: "Food & Restaurants",
+    categoryIcon: "🍽️",
+    description: "Famous authentic clay-pot (Chulivarchi) spicy Misal Pav served with fresh jalebis and butter milk in a rustic village setting.",
+    location: "Barde Town, Gangapur Road",
+    distanceKm: 7.5,
+    price: "₹150 / person",
+    rating: 4.7,
+    latitude: 20.0215,
+    longitude: 73.7420,
+    tags: ["sadhana", "misal", "food", "spicy", "chulivarchi", "maharashtrian", "breakfast"],
+    timings: "8:00 AM - 3:00 PM",
+    highlights: ["Authentic Clay Pot Misal", "Camel & Horse Rides", "Rustic Village Ambience"],
+  },
+  {
+    id: "someshwar-waterfall",
+    name: "Someshwar Waterfalls & Temple",
+    categorySlug: "attractions",
+    categoryName: "Tourist Attractions",
+    categoryIcon: "📍",
+    description: "Also known as Dudhsagar Waterfalls, a picturesque spot on the Godavari River with an ancient Shiva temple surrounded by greenery.",
+    location: "Gangapur Road, Someshwar",
+    distanceKm: 6.8,
+    price: "Free",
+    rating: 4.4,
+    latitude: 20.0270,
+    longitude: 73.7380,
+    tags: ["someshwar", "waterfall", "dudhsagar", "shiva temple", "godavari", "picnic"],
+    timings: "6:00 AM - 7:00 PM",
+    highlights: ["Scenic Waterfall", "Someshwar Shiva Temple", "Family Picnic Spot"],
+  },
+  {
+    id: "muktidham",
+    name: "Muktidham Temple Complex",
+    categorySlug: "temples",
+    categoryName: "Temples & Pilgrimage",
+    categoryIcon: "🛕",
+    description: "Magnificent marble temple displaying full-scale replicas of the 12 sacred Jyotirlingas and chapters of Gita carved on walls.",
+    location: "Nashik Road (2 km from Railway Station)",
+    distanceKm: 9.0,
+    price: "Free",
+    rating: 4.6,
+    latitude: 19.9535,
+    longitude: 73.8340,
+    tags: ["muktidham", "marble temple", "12 jyotirlingas", "nashik road", "gita"],
+    timings: "6:00 AM - 7:00 PM",
+    highlights: ["Rajasthan White Marble", "12 Jyotirlinga Replicas", "Bhagavad Gita Carvings"],
+  },
+  {
+    id: "saraf-bazar",
+    name: "Saraf Bazar & Main Market",
+    categorySlug: "shopping",
+    categoryName: "Shopping",
+    categoryIcon: "🛍️",
+    description: "Bustling traditional market famous for traditional Maharashtrian gold & silver jewelry, copper utensils, and local brassware.",
+    location: "Old City, Nashik",
+    distanceKm: 3.0,
+    price: "Varies",
+    rating: 4.3,
+    latitude: 20.0010,
+    longitude: 73.7880,
+    tags: ["saraf bazar", "shopping", "jewelry", "brassware", "utensils", "handicrafts"],
+    timings: "10:30 AM - 9:00 PM",
+    highlights: ["Traditional Gold Jewelry", "Kumbh Ritual Utensils", "Local Sweets & Spices"],
+  },
+  {
+    id: "express-inn",
+    name: "Express Inn Luxury Hotel",
+    categorySlug: "accommodation",
+    categoryName: "Accommodation",
+    categoryIcon: "🏨",
+    description: "Premier 5-star hotel offering plush rooms, fine dining restaurants, spa, and shuttle services to major pilgrim sites.",
+    location: "Mumbai-Agra National Highway, Nashik",
+    distanceKm: 7.0,
+    price: "₹4,500+ / night",
+    rating: 4.7,
+    latitude: 19.9560,
+    longitude: 73.7650,
+    tags: ["hotel", "stay", "accommodation", "express inn", "luxury", "resort"],
+    timings: "24 Hours Check-in",
+    highlights: ["5-Star Luxury", "Multi-cuisine Restaurants", "Swimming Pool & Spa"],
+  },
+  {
+    id: "coin-museum",
+    name: "INCAFO Coin Museum",
+    categorySlug: "culture",
+    categoryName: "Culture & Heritage",
+    categoryIcon: "🎭",
+    description: "Asia's premier Numismatic Museum displaying Indian coins, currency notes, copper plates, and ancient minting techniques over 2,500 years.",
+    location: "Anjaneri, Nashik-Trimbak Road",
+    distanceKm: 19.2,
+    price: "₹20",
+    rating: 4.5,
+    latitude: 19.9210,
+    longitude: 73.5780,
+    tags: ["coin museum", "history", "numismatics", "culture", "heritage", "museum"],
+    timings: "9:30 AM - 5:00 PM (Closed Mondays)",
+    highlights: ["Ancient Coin Collection", "Minting Demonstrations", "Research Library"],
+  }
+];
+
+export function searchPlaces(query: string, categorySlug: string = "all"): Place[] {
+  const q = query.trim().toLowerCase();
+  
+  return NASHIK_PLACES.filter((place) => {
+    const matchesCategory =
+      categorySlug === "all" || place.categorySlug.toLowerCase() === categorySlug.toLowerCase();
+    
+    if (!q) return matchesCategory;
+
+    const matchesName = place.name.toLowerCase().includes(q);
+    const matchesDesc = place.description.toLowerCase().includes(q);
+    const matchesLoc = place.location.toLowerCase().includes(q);
+    const matchesCategoryName = place.categoryName.toLowerCase().includes(q);
+    const matchesTags = place.tags.some((tag) => tag.toLowerCase().includes(q));
+
+    return matchesCategory && (matchesName || matchesDesc || matchesLoc || matchesCategoryName || matchesTags);
+  });
+}

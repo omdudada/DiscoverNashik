@@ -1,0 +1,110 @@
+{
+  "common": {
+    "search": "Search",
+    "explore": "Explore",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "update": "Update",
+    "back": "Back",
+    "continue": "Continue",
+    "viewDetails": "View Details",
+    "loading": "Loading...",
+    "pleaseWait": "Please wait...",
+    "fetchingPlaces": "Fetching places...",
+    "noPlacesFound": "No places found",
+    "noReviewsYet": "No reviews yet",
+    "noReportsFound": "No reports found",
+    "somethingWentWrong": "Something went wrong",
+    "unableToLoadData": "Unable to load data",
+    "pleaseTryAgain": "Please try again",
+    "required": "Required",
+    "invalidEmail": "Invalid email",
+    "enterYourName": "Enter your name",
+    "selectCategory": "Select category",
+    "areYouSure": "Are you sure?",
+    "confirm": "Confirm"
+  },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "map": "Map",
+    "kumbh": "Kumbh Mela",
+    "lostFound": "Lost & Found",
+    "groupTracker": "Group Tracker",
+    "aiChat": "AI Helpbot",
+    "business": "For Businesses",
+    "admin": "Admin"
+  },
+  "home": {
+    "tagline": "Digital Companion for Every Pilgrim",
+    "intro": "Your complete guide to Nashik and the Kumbh Mela 2027 \u2014 places, planning, and safety, all in one place.",
+    "exploreCategories": "Explore Categories"
+  },
+  "categories": {
+    "temples": "Temples & Pilgrimage",
+    "ghats": "Ghats",
+    "mountains": "Mountains & Treks",
+    "food": "Food & Restaurants",
+    "accommodation": "Accommodation",
+    "attractions": "Tourist Attractions",
+    "shopping": "Shopping",
+    "culture": "Culture & Heritage"
+  },
+  "placesNearMe": {
+    "title": "Places Near Me",
+    "enableLocation": "Enable location to see places near you",
+    "distanceAway": "{distance} km away"
+  },
+  "lostFound": {
+    "title": "Lost & Found",
+    "reportLost": "Report Lost",
+    "iFoundThis": "I Found This",
+    "description": "Description",
+    "lastSeenLocation": "Last Seen Location",
+    "foundLocation": "Found Location",
+    "dateTime": "Date & Time",
+    "contactInfo": "Contact / Enquiry Information",
+    "reportSubmitted": "Report submitted",
+    "deleteThisReport": "Delete this report?"
+  },
+  "groupTracker": {
+    "title": "Group Tracker",
+    "createGroup": "Create Group",
+    "joinGroup": "Join Group",
+    "groupCode": "Group Code",
+    "members": "Members",
+    "imMisplaced": "I'm Misplaced / Need Help",
+    "groupJoined": "Group joined",
+    "leaveGroup": "Leave group?",
+    "locationUpdated": "Location updated"
+  },
+  "kumbh": {
+    "datesAndPlanning": "Dates & Planning",
+    "gettingAround": "Getting Around",
+    "essentialServices": "Essential Services",
+    "importantLocations": "Important Locations",
+    "majorBathingDates": "Major Bathing Dates"
+  },
+  "business": {
+    "applyTitle": "Business Registration",
+    "businessName": "Business Name",
+    "category": "Category",
+    "applicationStatus": "Application Status",
+    "businessApproved": "Business approved"
+  },
+  "admin": {
+    "login": "Admin Login",
+    "dashboard": "Admin Dashboard",
+    "placeManagement": "Place Management",
+    "businessApproval": "Business Approval",
+    "lostFoundModeration": "Lost & Found Moderation"
+  },
+  "aiChat": {
+    "title": "AI Helpbot",
+    "placeholder": "Ask about Nashik, Kumbh Mela, or planning your visit...",
+    "disclaimer": "The assistant relies on verified platform information where possible."
+  }
+}

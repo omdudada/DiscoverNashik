@@ -1,0 +1,110 @@
+{
+  "common": {
+    "search": "शोधा",
+    "explore": "एक्सप्लोर करा",
+    "submit": "सबमिट करा",
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "delete": "हटवा",
+    "edit": "संपादित करा",
+    "update": "अद्यतन करा",
+    "back": "मागे",
+    "continue": "पुढे सुरू ठेवा",
+    "viewDetails": "तपशील पहा",
+    "loading": "लोड होत आहे...",
+    "pleaseWait": "कृपया प्रतीक्षा करा...",
+    "fetchingPlaces": "ठिकाणे आणली जात आहेत...",
+    "noPlacesFound": "कोणतेही ठिकाण सापडले नाही",
+    "noReviewsYet": "अद्याप कोणताही अभिप्राय नाही",
+    "noReportsFound": "कोणताही अहवाल सापडला नाही",
+    "somethingWentWrong": "काहीतरी चूक झाली",
+    "unableToLoadData": "डेटा लोड करता आला नाही",
+    "pleaseTryAgain": "कृपया पुन्हा प्रयत्न करा",
+    "required": "आवश्यक",
+    "invalidEmail": "अवैध ईमेल",
+    "enterYourName": "तुमचे नाव प्रविष्ट करा",
+    "selectCategory": "श्रेणी निवडा",
+    "areYouSure": "तुम्हाला खात्री आहे का?",
+    "confirm": "पुष्टी करा"
+  },
+  "nav": {
+    "home": "मुख्यपृष्ठ",
+    "explore": "एक्सप्लोर",
+    "map": "नकाशा",
+    "kumbh": "कुंभ मेळा",
+    "lostFound": "हरवले-सापडले",
+    "groupTracker": "ग्रुप ट्रॅकर",
+    "aiChat": "एआय मदतनीस",
+    "business": "व्यवसायांसाठी",
+    "admin": "प्रशासक"
+  },
+  "home": {
+    "tagline": "प्रत्येक यात्रेकरूचा डिजिटल सोबती",
+    "intro": "नाशिक आणि कुंभ मेळा 2027 साठी तुमचे संपूर्ण मार्गदर्शक \u2014 ठिकाणे, नियोजन आणि सुरक्षितता, सर्व एकाच ठिकाणी.",
+    "exploreCategories": "श्रेणी एक्सप्लोर करा"
+  },
+  "categories": {
+    "temples": "मंदिरे आणि तीर्थयात्रा",
+    "ghats": "घाट",
+    "mountains": "डोंगर आणि ट्रेक",
+    "food": "खाद्यपदार्थ आणि रेस्टॉरंट्स",
+    "accommodation": "निवास व्यवस्था",
+    "attractions": "पर्यटन स्थळे",
+    "shopping": "खरेदी",
+    "culture": "संस्कृती आणि वारसा"
+  },
+  "placesNearMe": {
+    "title": "माझ्या जवळची ठिकाणे",
+    "enableLocation": "जवळची ठिकाणे पाहण्यासाठी लोकेशन सुरू करा",
+    "distanceAway": "{distance} किमी अंतरावर"
+  },
+  "lostFound": {
+    "title": "हरवले-सापडले",
+    "reportLost": "हरवल्याची तक्रार नोंदवा",
+    "iFoundThis": "मला हे सापडले",
+    "description": "वर्णन",
+    "lastSeenLocation": "शेवटचे दिसलेले ठिकाण",
+    "foundLocation": "सापडलेले ठिकाण",
+    "dateTime": "दिनांक आणि वेळ",
+    "contactInfo": "संपर्क / चौकशी माहिती",
+    "reportSubmitted": "अहवाल सबमिट केला",
+    "deleteThisReport": "हा अहवाल हटवायचा का?"
+  },
+  "groupTracker": {
+    "title": "ग्रुप ट्रॅकर",
+    "createGroup": "ग्रुप तयार करा",
+    "joinGroup": "ग्रुपमध्ये सामील व्हा",
+    "groupCode": "ग्रुप कोड",
+    "members": "सदस्य",
+    "imMisplaced": "मी हरवलो आहे / मदत हवी आहे",
+    "groupJoined": "ग्रुपमध्ये सामील झाले",
+    "leaveGroup": "ग्रुप सोडायचा का?",
+    "locationUpdated": "स्थान अद्यतनित केले"
+  },
+  "kumbh": {
+    "datesAndPlanning": "तारखा आणि नियोजन",
+    "gettingAround": "प्रवास व्यवस्था",
+    "essentialServices": "आवश्यक सेवा",
+    "importantLocations": "महत्त्वाची ठिकाणे",
+    "majorBathingDates": "प्रमुख स्नान तारखा"
+  },
+  "business": {
+    "applyTitle": "व्यवसाय नोंदणी",
+    "businessName": "व्यवसायाचे नाव",
+    "category": "श्रेणी",
+    "applicationStatus": "अर्जाची स्थिती",
+    "businessApproved": "व्यवसाय मंजूर"
+  },
+  "admin": {
+    "login": "प्रशासक लॉगिन",
+    "dashboard": "प्रशासक डॅशबोर्ड",
+    "placeManagement": "ठिकाण व्यवस्थापन",
+    "businessApproval": "व्यवसाय मंजुरी",
+    "lostFoundModeration": "हरवले-सापडले मॉडरेशन"
+  },
+  "aiChat": {
+    "title": "एआय मदतनीस",
+    "placeholder": "नाशिक, कुंभ मेळा किंवा तुमच्या भेटीच्या नियोजनाबद्दल विचारा...",
+    "disclaimer": "शक्य असेल तेथे सहाय्यक सत्यापित प्लॅटफॉर्म माहितीवर अवलंबून असतो."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "common": {
+    "search": "खोजें",
+    "explore": "अन्वेषण करें",
+    "submit": "सबमिट करें",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "update": "अपडेट करें",
+    "back": "वापस",
+    "continue": "जारी रखें",
+    "viewDetails": "विवरण देखें",
+    "loading": "लोड हो रहा है...",
+    "pleaseWait": "कृपया प्रतीक्षा करें...",
+    "fetchingPlaces": "स्थान लाए जा रहे हैं...",
+    "noPlacesFound": "कोई स्थान नहीं मिला",
+    "noReviewsYet": "अभी तक कोई समीक्षा नहीं",
+    "noReportsFound": "कोई रिपोर्ट नहीं मिली",
+    "somethingWentWrong": "कुछ गलत हो गया",
+    "unableToLoadData": "डेटा लोड करने में असमर्थ",
+    "pleaseTryAgain": "कृपया पुनः प्रयास करें",
+    "required": "आवश्यक",
+    "invalidEmail": "अमान्य ईमेल",
+    "enterYourName": "अपना नाम दर्ज करें",
+    "selectCategory": "श्रेणी चुनें",
+    "areYouSure": "क्या आप सुनिश्चित हैं?",
+    "confirm": "पुष्टि करें"
+  },
+  "nav": {
+    "home": "होम",
+    "explore": "अन्वेषण",
+    "map": "मानचित्र",
+    "kumbh": "कुंभ मेला",
+    "lostFound": "खोया-पाया",
+    "groupTracker": "ग्रुप ट्रैकर",
+    "aiChat": "एआई सहायक",
+    "business": "व्यवसायों के लिए",
+    "admin": "एडमिन"
+  },
+  "home": {
+    "tagline": "हर तीर्थयात्री का डिजिटल साथी",
+    "intro": "नासिक और कुंभ मेला 2027 के लिए आपका संपूर्ण मार्गदर्शक \u2014 स्थान, योजना और सुरक्षा, सब एक ही जगह।",
+    "exploreCategories": "श्रेणियां देखें"
+  },
+  "categories": {
+    "temples": "मंदिर और तीर्थयात्रा",
+    "ghats": "घाट",
+    "mountains": "पहाड़ और ट्रेक",
+    "food": "भोजन और रेस्टोरेंट",
+    "accommodation": "आवास",
+    "attractions": "पर्यटन स्थल",
+    "shopping": "खरीदारी",
+    "culture": "संस्कृति और विरासत"
+  },
+  "placesNearMe": {
+    "title": "मेरे पास के स्थान",
+    "enableLocation": "अपने पास के स्थान देखने के लिए लोकेशन सक्षम करें",
+    "distanceAway": "{distance} किमी दूर"
+  },
+  "lostFound": {
+    "title": "खोया-पाया",
+    "reportLost": "खोया हुआ रिपोर्ट करें",
+    "iFoundThis": "मुझे यह मिला",
+    "description": "विवरण",
+    "lastSeenLocation": "अंतिम बार देखी गई जगह",
+    "foundLocation": "मिली हुई जगह",
+    "dateTime": "दिनांक और समय",
+    "contactInfo": "संपर्क / पूछताछ जानकारी",
+    "reportSubmitted": "रिपोर्ट सबमिट की गई",
+    "deleteThisReport": "इस रिपोर्ट को हटाएं?"
+  },
+  "groupTracker": {
+    "title": "ग्रुप ट्रैकर",
+    "createGroup": "ग्रुप बनाएं",
+    "joinGroup": "ग्रुप में शामिल हों",
+    "groupCode": "ग्रुप कोड",
+    "members": "सदस्य",
+    "imMisplaced": "मैं भटक गया हूं / मदद चाहिए",
+    "groupJoined": "ग्रुप में शामिल हुए",
+    "leaveGroup": "ग्रुप छोड़ें?",
+    "locationUpdated": "स्थान अपडेट किया गया"
+  },
+  "kumbh": {
+    "datesAndPlanning": "तिथियां और योजना",
+    "gettingAround": "आवागमन",
+    "essentialServices": "आवश्यक सेवाएं",
+    "importantLocations": "महत्वपूर्ण स्थान",
+    "majorBathingDates": "प्रमुख स्नान तिथियां"
+  },
+  "business": {
+    "applyTitle": "व्यवसाय पंजीकरण",
+    "businessName": "व्यवसाय का नाम",
+    "category": "श्रेणी",
+    "applicationStatus": "आवेदन की स्थिति",
+    "businessApproved": "व्यवसाय स्वीकृत"
+  },
+  "admin": {
+    "login": "एडमिन लॉगिन",
+    "dashboard": "एडमिन डैशबोर्ड",
+    "placeManagement": "स्थान प्रबंधन",
+    "businessApproval": "व्यवसाय स्वीकृति",
+    "lostFoundModeration": "खोया-पाया मॉडरेशन"
+  },
+  "aiChat": {
+    "title": "एआई सहायक",
+    "placeholder": "नासिक, कुंभ मेला, या अपनी यात्रा की योजना के बारे में पूछें...",
+    "disclaimer": "सहायक जहां संभव हो, सत्यापित प्लेटफॉर्म जानकारी पर निर्भर करता है।"
+  }
+}
