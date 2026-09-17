@@ -1,9 +1,9 @@
 "use client";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useTranslation } from "@/lib/i18n/i18n";
 
-export default function LostFoundReportPage() {
+function ReportForm() {
   const { t } = useTranslation();
   const params = useSearchParams();
   const type = params.get("type") === "found" ? "found" : "lost";
@@ -11,7 +11,6 @@ export default function LostFoundReportPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // POST /api/lost-found/{lost|found}
     setSubmitted(true);
   }
 
@@ -52,5 +51,13 @@ export default function LostFoundReportPage() {
         </button>
       </form>
     </div>
+  );
+}
+
+export default function LostFoundReportPage() {
+  return (
+    <Suspense fallback={<div className="p-8 text-center">Loading...</div>}>
+      <ReportForm />
+    </Suspense>
   );
 }

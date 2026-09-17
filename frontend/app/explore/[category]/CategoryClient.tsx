@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useTranslation } from "@/lib/i18n/i18n";
 import HomeSearch from "@/components/HomeSearch";
 
-export default function CategoryPage({ params }: { params: { category: string } }) {
+export default function CategoryClient({ category }: { category: string }) {
   const { t } = useTranslation();
 
   return (
@@ -18,12 +18,12 @@ export default function CategoryPage({ params }: { params: { category: string } 
             ← Back to Home
           </Link>
           <h1 className="text-3xl font-bold capitalize text-gray-900">
-            {params.category} Places
+            {category} Places
           </h1>
         </div>
       </div>
 
-      <HomeSearch initialCategory={params.category} />
+      <HomeSearch initialCategory={category} />
     </div>
   );
 }

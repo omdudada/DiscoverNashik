@@ -7,14 +7,14 @@ import { NASHIK_PLACES } from "@/lib/placesData";
 
 const PlaceMap = dynamic(() => import("@/components/PlaceMap"), { ssr: false });
 
-export default function PlaceDetailsPage({ params }: { params: { id: string } }) {
+export default function PlaceClient({ id }: { id: string }) {
   const { t } = useTranslation();
 
   const place = NASHIK_PLACES.find(
-    (p) => p.id.toLowerCase() === params.id.toLowerCase()
+    (p) => p.id.toLowerCase() === id.toLowerCase()
   ) || {
-    id: params.id,
-    name: `Place #${params.id}`,
+    id: id,
+    name: `Place #${id}`,
     categorySlug: "attractions",
     categoryName: "Tourist Spot",
     categoryIcon: "📍",
