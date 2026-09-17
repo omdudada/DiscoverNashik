@@ -8,7 +8,6 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: isProd ? "/DiscoverNashik" : "",
-  assetPrefix: isProd ? "/DiscoverNashik/" : "",
 };
 
 module.exports = nextConfig;
